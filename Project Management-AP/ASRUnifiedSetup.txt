@@ -1,0 +1,281 @@
+2024-09-22T06:15:38.8264222-07:00	Always:	Trace Session Started
+06:15:38:
+06:15:38:Application Started
+06:15:38:.NET Framework Version 4.8.04161 installed
+06:15:38:.NET Framework Version 4.6.2 or later is detected.
+06:15:42:MySQL is not installed on the server.
+06:15:42:currentBuildVersion - 9.61.7016.1
+06:15:42:Microsoft Azure Site Recovery Configuration/Process Server Dependencies is not installed on the server.
+06:15:42:Microsoft Azure Site Recovery Configuration/Process Server is not installed on the server.
+06:15:42:Fresh installation scenario.
+06:15:42:Created machine identifier as 4439b542-5afa-4014-9cd8-1ebe0c6b05ee.
+06:15:42:tls check value : False
+06:15:47:Microsoft Azure Site Recovery Configuration Manager is not installed on the server.
+06:15:47:MySQL is not installed on the server.
+06:15:47:Culture installed with Operating System: en-US
+06:15:47:UI Culture : en-US
+06:15:47:Current Culture : en-AU
+06:15:47:English operating system.
+06:15:47:Current culture and current UI culture are English.
+06:15:47:Microsoft Azure Site Recovery Configuration/Process Server Dependencies is not installed on the server.
+06:15:47:Microsoft Azure Site Recovery Configuration/Process Server is not installed on the server.
+06:15:47:CXTP/CS/PS is not installed.
+06:15:47:Microsoft Azure Site Recovery Mobility Service/Master Target Server is not installed on the server.
+06:15:47:The junction directory (C:\ProgramData\ASR\) doesn't exists.
+06:15:51:Adding Page LaunchPage
+06:15:51:Skipping stage addition. Stage Null
+06:15:51:Enter UnifiedSetup.LaunchPage
+06:15:51:Active navigation for 
+06:15:51:Adding Page InstallationChoice
+06:15:51:Adding before_you_begin key to dictionary
+06:15:51:Adding Page ThirdpartySoftwareLicensePage
+06:15:51:Adding third_party_software_license key to dictionary
+06:15:51:Adding Page ASRRegistrationPage
+06:15:51:Adding azure_site_recovery_registration key to dictionary
+06:15:51:Adding Page ReplicationApplianceDetailsPage
+06:15:51:Adding configuration_server_details key to dictionary
+06:15:52:Adding Page ProxyConfigurationPage
+06:15:52:Adding internet_settings key to dictionary
+06:15:52:Adding Page PrerequisitesPage
+06:15:52:Adding prerequisite_check key to dictionary
+06:15:52:Adding Page MySQLPage
+06:15:52:Adding mysql_configuration key to dictionary
+06:15:52:Adding Page EnvironmentDetailsPage
+06:15:52:Adding environment_details key to dictionary
+06:15:52:Adding Page InstallLocationPage
+06:15:52:Adding install_location key to dictionary
+06:15:52:Adding Page NetworkSelectionPage
+06:15:52:Adding network_selection key to dictionary
+06:15:52:Adding Page Summary
+06:15:52:Adding summary key to dictionary
+06:15:52:Adding Page InstallationProgress
+06:15:52:Adding installation_progress key to dictionary
+06:15:52:Exit UnifiedSetup.LaunchPage
+06:15:52:Enabling clickable navigation for 
+06:15:52:Inactive navigation for  
+06:15:52:Enter UnifiedSetup.InstallationChoice
+06:15:52:Active navigation for before_you_begin
+06:15:57:User clicked CSPS Radio button.
+06:15:57:Set server mode to CS
+06:15:57:Exit UnifiedSetup.InstallationChoice
+06:15:57:Enabling clickable navigation for before_you_begin
+06:15:57:Inactive navigation for before_you_begin 
+06:15:57:Enter UnifiedSetup.ThirdpartySoftwareLicensePage
+06:15:57:Active navigation for third_party_software_license
+06:15:58:Enabling the next button as ThirdpartySoftwareLicenseCheckbox has been checked.
+06:15:59:Exit UnifiedSetup.ThirdpartySoftwareLicensePage
+06:15:59:Enabling clickable navigation for third_party_software_license
+06:15:59:Inactive navigation for third_party_software_license 
+06:15:59:Enter UnifiedSetup.ASRRegistrationPage
+06:15:59:Active navigation for azure_site_recovery_registration
+06:16:15:Enable the next button.
+06:16:38:Set valutCredsFilePath to C:\Users\Administrator\Desktop\OZ-MG-Final-MigrateVault-1431373672_Sun Sep 22 2024.VaultCredentials
+06:16:38:Exit UnifiedSetup.ASRRegistrationPage
+06:16:38:Enabling clickable navigation for azure_site_recovery_registration
+06:16:38:Inactive navigation for azure_site_recovery_registration 
+06:16:38:Enter UnifiedSetup.ProxyConfigurationPage
+06:16:38:Active navigation for internet_settings
+06:16:38:Adding proxy type status to CheckingPending.
+06:16:38:MySQL is not installed on the server.
+06:17:07:Set ProxyType to Bypass
+06:17:07:Invoking the Validate page internal.
+06:17:08:ProxyConnectionState: CheckingPending
+06:17:08:Checking connectivity to end points url's.
+06:17:08:Endpoint URLs : https://pod01-srs1.ae.hypervrecoverymanager.windowsazure.com
+06:17:08:Endpoint URLs : https://pod01-prot2.ae.backup.windowsazure.com
+06:17:08:Endpoint URLs : https://pod01-id1.ae.backup.windowsazure.com
+06:17:08:Endpoint URLs : https://pod01-tel1.ae.backup.windowsazure.com
+06:17:08:Endpoint URLs : https://dc.services.visualstudio.com
+06:17:08:Endpoint URLs : https://login.windows.net
+06:17:08:Endpoint URLs : https://cdn.mysql.com
+06:17:08:Checking for Bypass settings
+06:17:12:connectionState for Bypass proxy: True
+06:17:12:status = True
+06:17:12:UpdateProxySettingsInRegistry : address = , port = , userName = 
+06:17:12:Exit UnifiedSetup.ProxyConfigurationPage
+06:17:12:Enabling clickable navigation for internet_settings
+06:17:12:Inactive navigation for internet_settings 
+06:17:12:Enter UnifiedSetup.PrerequisitesPage
+06:17:12:Active navigation for prerequisite_check
+06:17:12:File C:\ProgramData\ASRSetupLogs\PrereqStatusFile.txt doesn't exist.
+06:17:12:Invoking TriggerValidationInNewThread.
+06:17:13:Writing Checking for sufficient machine memory status information to the log.
+06:17:17:Writing Checking the number of processor cores status information to the log.
+06:17:21:Writing System restart pending check status information to the log.
+06:17:22:Writing Server OS check status information to the log.
+06:17:23:Writing Checking the IIS website configuration status information to the log.
+06:17:23:Writing Checking anonymous authentication status status information to the log.
+06:17:23:Writing Checking FastCgi application configuration status information to the log.
+06:17:23:Writing Checking IIS port bindings status information to the log.
+06:17:24:Writing Checking registry access group policy settings status information to the log.
+06:17:24:Writing Checking access to command prompt status information to the log.
+06:17:24:Writing Checking Trust logic file attachments group policy settings status information to the log.
+06:17:34:Writing Checking PowerShell scripts execution status status information to the log.
+06:17:34:Writing Checking if server configured to use non FIPS-compliant encryption status information to the log.
+06:17:35:Writing Time in sync check status information to the log.
+06:17:36:Writing Free space availability check status information to the log.
+06:17:37:Writing Checking for Static IP Addresses status information to the log.
+06:17:39:Writing Checking for Strawberry Perl(v5.8.8) status information to the log.
+06:17:39:Invoking PurgeDraRegistry method.
+06:17:39:Invoking UpdateButtonStateandUI and UpdateNextButtonStateOnSuccess methods when all the pre-requisites succeed.
+06:18:13:Exit UnifiedSetup.PrerequisitesPage
+06:18:13:Enabling clickable navigation for prerequisite_check
+06:18:13:Inactive navigation for prerequisite_check 
+06:18:13:Enter UnifiedSetup.MySQLPage
+06:18:13:Active navigation for mysql_configuration
+06:19:29:Exit UnifiedSetup.MySQLPage
+06:19:29:Enabling clickable navigation for mysql_configuration
+06:19:29:Inactive navigation for mysql_configuration 
+06:19:29:Enter UnifiedSetup.EnvironmentDetailsPage
+06:19:29:Active navigation for environment_details
+06:19:31:User has selected the 'No' radio button for protecting VMware virtual machines.
+06:19:31:Enable Previous, Next and Cancel buttons.
+06:19:32:Set EnvType to NonVMWare
+06:19:32:Exit UnifiedSetup.EnvironmentDetailsPage
+06:19:32:Enabling clickable navigation for environment_details
+06:19:32:Inactive navigation for environment_details 
+06:19:32:Enter UnifiedSetup.InstallLocationPage
+06:19:32:Active navigation for install_location
+06:19:32:C:\ has 25 GB free space.
+06:19:32:The largest NTFS drive available in the system is C:\.
+06:19:32:Enter Page: Displaying C:\Program Files (x86)\Microsoft Azure Site Recovery in InstallLocationTextBox.
+06:19:32:C:\ has 25 GB free space.
+06:19:32:The largest NTFS drive available in the system is C:\.
+06:19:32:C:\ has 25 GB free space.
+06:19:32:The largest NTFS drive available in the system is C:\.
+06:19:32:Enabled next button as the drive selected C:\Program Files (x86)\Microsoft Azure Site Recovery has more than 5 GB free space.
+06:19:34:Set CXInstallDir to C:\Program Files (x86)\Microsoft Azure Site Recovery\home\svsystems
+06:19:34:Set AgentInstallDir to C:\Program Files (x86)\Microsoft Azure Site Recovery
+06:19:34:Validating free space for C:\ drive.
+06:19:34:The freespace available in C:\ is 25 GB.
+06:19:34:Comparing user selected drive: C with NTFS drive: C available in the system.
+06:19:34:The drive path selected : C is a NTFS drive path.
+06:19:34:Validating free space for C:\ drive.
+06:19:34:The freespace available in C:\ is 25 GB.
+06:19:34:Comparing user selected drive: C with NTFS drive: C available in the system.
+06:19:34:The drive path selected : C is a NTFS drive path.
+06:19:34:Exit UnifiedSetup.InstallLocationPage
+06:19:34:Enabling clickable navigation for install_location
+06:19:34:Inactive navigation for install_location 
+06:19:34:Enter UnifiedSetup.NetworkSelectionPage
+06:19:34:Active navigation for network_selection
+06:19:39:IP address(192.168.10.42) validation has succeeded.
+06:19:39:Set PSIP to 192.168.10.42
+06:19:39:Set DataTransferSecurePort to 9443
+06:19:39:IP address(192.168.10.42) validation has succeeded.
+06:19:39:Set AZUREIP to 192.168.10.42
+06:19:39:IP address(192.168.10.42) validation has succeeded.
+06:19:39:Set PSIP to 192.168.10.42
+06:19:39:Set DataTransferSecurePort to 9443
+06:19:39:IP address(192.168.10.42) validation has succeeded.
+06:19:39:Set AZUREIP to 192.168.10.42
+06:19:39:Exit UnifiedSetup.NetworkSelectionPage
+06:19:39:Enabling clickable navigation for network_selection
+06:19:39:Inactive navigation for network_selection 
+06:19:39:Enter UnifiedSetup.Summary
+06:19:39:Active navigation for summary
+06:19:40:Exit UnifiedSetup.Summary
+06:19:40:Enabling clickable navigation for summary
+06:19:40:Inactive navigation for summary 
+06:19:40:Enter UnifiedSetup.InstallationProgress
+06:19:40:Active navigation for installation_progress
+06:19:40:Disabling sidebar navigation and finish button.
+06:19:40:UI changes: Fresh
+06:19:40:Agent installation directory: C:\Program Files (x86)\Microsoft Azure Site Recovery
+06:19:40:Agent role: MT
+06:19:40:Communication mode: Https
+06:19:40:CS IP: 
+06:19:40:CS Port: 443
+06:19:40:CX installation directory: C:\Program Files (x86)\Microsoft Azure Site Recovery\home\svsystems
+06:19:40:Environment type: NonVMWare
+06:19:40:Installation type: Fresh
+06:19:40:Mysql file path: C:\Temp\ASRSetup\MySQLCredentialsFile.txt
+06:19:40:Passphrase file path: 
+06:19:40:Source config file path: 
+06:19:40:Proxy settings file path: 
+06:19:40:Proxy type: Bypass
+06:19:40:PS IP: 192.168.10.42
+06:19:40:AZURE IP: 192.168.10.42
+06:19:40:Re installation status: 
+06:19:40:Server mode: CS
+06:19:40:Skip space check: false
+06:19:40:Valut file path: C:\Users\Administrator\Desktop\OZ-MG-Final-MigrateVault-1431373672_Sun Sep 22 2024.VaultCredentials
+06:19:40:MySQL is not installed on the server.
+06:19:40:MySQL is not installed on the server.
+06:19:40:Using Bypass proxy settings...
+06:19:40:Is MySql setup file - 5.7.20 already exists: False
+06:19:40:Downloading MySQL file.
+06:20:12:MySQL setup file - 5.7.20 is successfully downloaded.
+06:20:12:Update UI : MySQL success
+06:20:12:Creating C:\ProgramData\ASRSetupLogs\MySQLDownload.log file.
+06:20:12:mySQLInstStatus : Success
+06:20:12:IIS installation status registry key is set to : 
+06:20:12:Installing Internet Information Services.
+06:20:33:Setup is unable to install IIS. 
+ArgumentNotValid: The role, role service, or feature name is not valid: 'PowerShell-ISE'. The name was not found.
+06:20:33:Update UI : IIS installation failed. Aborting the installation.
+06:20:33:iisInstStatus : Failure
+06:20:33:cxtpInstStatus : Checking
+06:20:33:cxInstStatus : Checking
+06:20:33:mtInstStatus : Checking
+06:20:33:marsInstStatus : Checking
+06:20:33:Invoking ServerConfiguration.
+06:20:39:Skipping DRA service check
+06:20:40:Skipping IsVxAgentServiceRunning check.
+06:20:40:Skipping IsScoutApplicationServiceRunning check.
+06:20:41:operation: InstallIIS  result: Failed
+06:20:41:Uploading operation summary logs.
+06:20:41:InvalidOperationException: Message: Service dra was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:InvalidOperationException: Message: Service W3SVC was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:InvalidOperationException: Message: Service tmansvc was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:InvalidOperationException: Message: Service InMage PushInstall was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:InvalidOperationException: Message: Service cxprocessserver was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:InvalidOperationException: Message: Service obengine was not found on computer '.'. StackTrace:    at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at ASRSetupFramework.ServiceControlFunctions.IsServiceInstalled(String serviceName) ErrorCode: System.ComponentModel.Win32Exception (0x80004005): The specified service does not exist as an installed service.
+06:20:41:Win32Exception ErrorCode: 183
+06:20:41:CS Install Dir - C:\Program Files (x86)\Microsoft Azure Site Recovery\home\svsystems
+06:20:41:Agent Install Dir - C:\Program Files (x86)\Microsoft Azure Site Recovery\agent
+06:20:41:Exception at GetUnifiedSetupServiceLogs: Threw Exception.Type: System.IO.DirectoryNotFoundException, Exception.Message: Could not find a part of the path 'C:\Program Files (x86)\Microsoft Azure Site Recovery\agent'.
+06:20:41:StackTrace:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at UnifiedSetup.InstallActionProcessess.ServiceLogs()
+   at UnifiedSetup.InstallActionProcessess.GetUnifiedSetupServiceLogs()
+06:20:43:Invoking UploadCustomLogsUsingVaultCreds with file : C:\ProgramData\ASRSetupLogs\ASRUnifiedSetup.log
+06:20:44:Invoking UploadCustomLogsUsingVaultCreds with file : C:\ProgramData\ASRSetupLogs\ASRUnifiedSetup.log
+06:20:46:Update UI : Server configuration failed.
+06:20:46:Removing C:\Temp\ASRSetup\MySQLCredentialsFile.txt
+06:20:46:File  doesn't exist.
+06:20:46:File  doesn't exist.
+06:20:46:Removing C:\ProgramData\ASRSetupLogs\PrereqStatusFile.txt
+06:21:52:Trying to open C:\ProgramData\ASRSetupLogs\ASRUnifiedSetup.log
+06:27:59:Trying to open C:\ProgramData\ASRSetupLogs\ASRUnifiedSetup.log
